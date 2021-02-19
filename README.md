@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/github/checks-status/mythemeway/Dark-Particle/master?logo=github&label=Checks" />
 <a title="Check it out" target="_blank" href="https://mythemeway.github.io/Dark-Particle/"><img src="https://img.shields.io/website?url=https%3A%2F%2Fmythemeway.github.io/Dark-Particle&label=Website" /></a>
 <a title="Check it out" target="_blank" href="https://observatory.mozilla.org/analyze/mythemeway.github.io?third-party=false"><img src="https://img.shields.io/mozilla-observatory/grade/mythemeway.github.io?logo=mozilla&label=Observatory" /></a>
-<img src="https://img.shields.io/github/repo-size/mythemeway/Dark-Particle?label=RepoSize" />
+<img src="https://img.shields.io/github/repo-size/mytestdummy/Dark-Particle?label=RepoSize" />
 <img src="https://img.shields.io/github/repo-size/mythemeway/mythemeway.github.io?label=BuildSize" />
 
 ## Preview - [Demo](https://mythemeway.github.io/Dark-Particle/ "Go there")
