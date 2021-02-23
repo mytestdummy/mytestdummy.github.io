@@ -31,8 +31,8 @@ var dropdownArrowsLength = dropdownArrows.length;
 
 // fix mobile viewport bug
 // source: https://css-tricks.com/the-trick-to-viewport-units-on-mobile/
-let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
+// let vh = window.innerHeight * 0.01;
+// document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 // SCROLL-SPYING VARIABLES
 var prevScrollpos = window.pageYOffset;
