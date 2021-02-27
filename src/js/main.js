@@ -107,10 +107,10 @@ window.onload = function () {
         }
 };
 
-// ADAPTION AFTER RESIZE:
-window.onresize = function () {
-        setTimeout(function () { location.reload() }, 100);
-}
+// // ADAPTION AFTER RESIZE:
+// window.onresize = function () {
+//         setTimeout(function () { location.reload() }, 100);
+// }
 
 // ADAPTIONS DURING SCROLLING:
 window.onscroll = function () {
