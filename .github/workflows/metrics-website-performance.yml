@@ -11,5 +11,8 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          plugin_pagespeed: yes
-          plugin_pagespeed_url: mytestdummy.github.io
+            plugin_pagespeed: yes
+            plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+            plugin_pagespeed_detailed: no
+            plugin_pagespeed_screenshot: no
+            plugin_pagespeed_url: mytestdummy.github.io
