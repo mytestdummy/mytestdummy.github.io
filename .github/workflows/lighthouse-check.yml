@@ -29,10 +29,10 @@ jobs:
         uses: foo-software/lighthouse-check-action@master
         with:
           emulatedFormFactor: "desktop"
-          outputDirectory: .github/workflows
+          outputDirectory: src/
           urls: 'https://mytestdummy.github.io,https://mytestdummy.github.io/projects/2020/10/31/project-1.html,https://mytestdummy.github.io/projects/2020/10/31/project-2.html'
       - name: Upload artifacts
         uses: actions/upload-artifact@master
         with:
           name: Lighthouse reports
-          path: .github/workflows
+          path: src/
