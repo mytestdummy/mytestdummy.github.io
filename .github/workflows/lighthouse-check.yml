@@ -14,11 +14,11 @@ jobs:
       - name: Run Lighthouse
         uses: foo-software/lighthouse-check-action@master
         with:
-          emulatedFormFactor: "desktop"
-          outputDirectory: /tmp/lighthouse-check
-          urls: 'https://www.foo.software,https://www.foo.software/contact'
+          emulatedFormFactor: "all"
+          outputDirectory: /tmp/artifacts
+          urls: 'https://mytestdummy.github.io,https://mytestdummy.github.io/projects/2020/10/31/project-1.html,https://mytestdummy.github.io/projects/2020/10/31/project-2.html'
       - name: Upload artifacts
         uses: actions/upload-artifact@master
         with:
           name: Lighthouse reports
-          path: /tmp/lighthouse-check
+          path: /tmp/artifacts
