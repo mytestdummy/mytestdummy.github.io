@@ -1,0 +1,24 @@
+name: Lighthouse Check
+
+on:
+  page_build:
+  schedule:
+    - cron: '55 0 * * *'
+
+jobs:
+  lighthouse-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - run: mkdir /tmp/artifacts
+      - name: Run Lighthouse
+        uses: foo-software/lighthouse-check-action@master
+        with:
+          emulatedFormFactor: "desktop"
+          outputDirectory: /tmp/lighthouse-check
+          urls: 'https://www.foo.software,https://www.foo.software/contact'
+      - name: Upload artifacts
+        uses: actions/upload-artifact@master
+        with:
+          name: Lighthouse reports
+          path: /tmp/lighthouse-check
