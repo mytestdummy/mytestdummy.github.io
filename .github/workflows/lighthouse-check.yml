@@ -1,9 +1,9 @@
-name: Lighthouse Check
+# name: Lighthouse Check
 
-on:
-  page_build:
-  schedule:
-    - cron: '55 0 * * *'
+# on:
+#   page_build:
+#   schedule:
+#     - cron: '55 0 * * *'
 
 # jobs:
 #   lighthouse-check:
@@ -20,19 +20,24 @@ on:
 # RESIDUUM
 #
 # USE OF FOO-SOFTWARE/LIGHTHOUSE-CHECK-ACTION@MASTER
-jobs:
-  lighthouse-check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@master
-      - name: Run Lighthouse
-        uses: foo-software/lighthouse-check-action@master
-        with:
-          emulatedFormFactor: "desktop"
-          outputDirectory: src/
-          urls: 'https://mytestdummy.github.io,https://mytestdummy.github.io/projects/2020/10/31/project-1.html,https://mytestdummy.github.io/projects/2020/10/31/project-2.html'
-      - name: Upload artifacts
-        uses: actions/upload-artifact@master
-        with:
-          name: Lighthouse reports
-          path: src/
+# on:
+#   page_build:
+#   schedule:
+#     - cron: '55 0 * * *'
+# jobs:
+#   lighthouse-check:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@master
+#       - run: mkdir /tmp/artifacts
+#       - name: Run Lighthouse
+#         uses: foo-software/lighthouse-check-action@master
+#         with:
+#           emulatedFormFactor: "desktop"
+#           outputDirectory: /tmp/artifacts
+#           urls: 'https://mytestdummy.github.io,https://mytestdummy.github.io/projects/2020/10/31/project-1.html,https://mytestdummy.github.io/projects/2020/10/31/project-2.html'
+#       - name: Upload artifacts
+#         uses: actions/upload-artifact@master
+#         with:
+#           name: Lighthouse reports
+#           path: /tmp/artifacts
