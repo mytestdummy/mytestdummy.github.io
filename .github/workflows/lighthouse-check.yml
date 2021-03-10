@@ -1,0 +1,74 @@
+name: Lighthouse Check
+
+on:
+  page_build:
+  schedule:
+    - cron: '55 0 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+      with:
+        repository: 'mythemeway/lighthouse-badges'
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+    - name: Create Results
+      run: |
+        ./src/index.js -u https://mytestdummy.github.io/ -r -b plastic -o lighthouse-results/mytestdummy
+    - name: Commit Results
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add lighthouse-results
+        git commit -am "Lighthouse results refreshed | Mytestdummy"
+    - name: Push Results
+      uses: ad-m/github-push-action@master
+      with:
+        repository: 'mytestdummy/cloud'
+        github_token: ${{ secrets.DUMMY_REPO_TOKEN }}
+        force: false
+
+# RESIDUUM
+#
+# USE OF FOO-SOFTWARE/LIGHTHOUSE-CHECK-ACTION@MASTER
+# on:
+#   page_build:
+#   schedule:
+#     - cron: '55 0 * * *'
+# jobs:
+#   lighthouse-check:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@master
+#       - run: mkdir /tmp/artifacts
+#       - name: Run Lighthouse
+#         uses: foo-software/lighthouse-check-action@master
+#         with:
+#           emulatedFormFactor: "desktop"
+#           outputDirectory: /tmp/artifacts
+#           urls: 'https://mytestdummy.github.io,https://mytestdummy.github.io/projects/2020/10/31/project-1.html,https://mytestdummy.github.io/projects/2020/10/31/project-2.html'
+#       - name: Upload artifacts
+#         uses: actions/upload-artifact@master
+#         with:
+#           name: Lighthouse reports
+#           path: /tmp/artifacts
+# name: Lighthouse Check
+
+# on:
+#   page_build:
+#   schedule:
+#     - cron: '55 0 * * *'
+
+# jobs:
+#   lighthouse-check:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - run: npm install @emazzotta/lighthouse-badges@1.1.4
+#       - run: npm i -g lighthouse-badges lighthouse-badges --urls https://www.mytestdummy.github.io -o test_results
+#       - name: Upload artifacts
+#         uses: actions/upload-artifact@master
+#         with:
+#           name: Lighthouse Results
+#           path: /tmp/artifacts
