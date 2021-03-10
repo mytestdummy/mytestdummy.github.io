@@ -1,7 +1,7 @@
 name: Lighthouse Check
 
 on:
-  push:
+  page_build:
   schedule:
     - cron: '55 0 * * *'
 
