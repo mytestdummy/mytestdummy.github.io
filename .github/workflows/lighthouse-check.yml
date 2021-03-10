@@ -21,14 +21,13 @@ jobs:
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add lighthouse-results
+        git add lighthouse-results/mytestdummy
         git commit -am "Lighthouse results refreshed | Mytestdummy"
     - name: Push Results
       uses: ad-m/github-push-action@master
       with:
-        repository: 'mytestdummy/cloud'
-        github_token: ${{ secrets.DUMMY_REPO_TOKEN }}
-        force: false
+        repository: 'mythemeway/lighthouse-badges'
+        github_token: ${{ secrets.SITDISCH_REPO_TOKEN }}
 
 # RESIDUUM
 #
