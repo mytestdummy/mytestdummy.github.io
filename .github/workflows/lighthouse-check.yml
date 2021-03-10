@@ -16,13 +16,13 @@ jobs:
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
     - name: Create Results
       run: |
-        ./src/index.js -u https://mytestdummy.github.io/ -r -b plastic -o lighthouse-results/mytestdummy
+        ./src/index.js -u https://mytestdummy.github.io/ -r -b plastic -o results/mytestdummy
     - name: Commit Results
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add lighthouse-results/mytestdummy
-        git commit -am "Lighthouse results refreshed | Mytestdummy"
+        git add results/mytestdummy
+        git commit -am "Results Refreshed | Mytestdummy"
     - name: Push Results
       uses: ad-m/github-push-action@master
       with:
