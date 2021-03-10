@@ -28,6 +28,7 @@ jobs:
       with:
         repository: 'mytestdummy/cloud'
         github_token: ${{ secrets.DUMMY_REPO_TOKEN }}
+        force: true
 
 # RESIDUUM
 #
