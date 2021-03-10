@@ -28,7 +28,6 @@ jobs:
       with:
         repository: 'mytestdummy/cloud'
         github_token: ${{ secrets.BOT_REPO_TOKEN }}
-        branch: ${{ github.ref }}
 
 # RESIDUUM
 #
