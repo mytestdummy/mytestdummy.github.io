@@ -7,6 +7,12 @@
 <img src="https://img.shields.io/github/languages/code-size/mythemeway/Dark-Particle?label=CodeSize" />
 <img src="https://img.shields.io/github/repo-size/mythemeway/Dark-Particle?label=RepoSize" />
 <img src="https://img.shields.io/github/repo-size/mythemeway/mythemeway.github.io?label=BuildSize" />
+#### <a title="Check it out" target="_blank" href="https://github.com/sitdisch/cloud/tree/master/lighthouse-results/mytestdummy"><img src="https://raw.githubusercontent.com/GoogleChrome/lighthouse/master/assets/lighthouse-logo.svg" style="height:1.3em;margin-bottom:-.3em"/> Lighthouse Results</a>
+<a title="Check it out" target="_blank" href="https://github.com/sitdisch/cloud/tree/master/lighthouse-results/mytestdummy"><img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/lighthouse_performance.svg" /></a>
+<a title="Check it out" target="_blank" href="https://github.com/sitdisch/cloud/tree/master/lighthouse-results/mytestdummy"><img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/lighthouse_accessibility.svg" /></a>
+<a title="Check it out" target="_blank" href="https://github.com/sitdisch/cloud/tree/master/lighthouse-results/mytestdummy"><img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/lighthouse_best-practices.svg" /></a>
+<a title="Check it out" target="_blank" href="https://github.com/sitdisch/cloud/tree/master/lighthouse-results/mytestdummy"><img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/lighthouse_seo.svg" /></a>
+<a title="Check it out" target="_blank" href="https://github.com/sitdisch/cloud/tree/master/lighthouse-results/mytestdummy"><img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/lighthouse_pwa.svg" /></a>
 
 ## Preview - [Demo](https://mythemeway.github.io/Dark-Particle/ "Go there")
 
