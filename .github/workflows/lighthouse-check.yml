@@ -21,6 +21,7 @@ jobs:
     - name: Create Results
       run: |
         cd nested
+        export LIGHTHOUSE_BADGES_PARAMS="--preset=desktop"
         ./src/index.js -u https://mytestdummy.github.io/ -r -b plastic -o exchange/lighthouse-results/mytestdummy
         mv exchange/** ..
         cd ..
