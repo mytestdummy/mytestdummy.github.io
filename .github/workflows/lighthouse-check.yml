@@ -17,11 +17,12 @@ jobs:
       with:
         repository: 'mythemeway/lighthouse-badges'
         persist-credentials: false
-        path: lighthouse-results
+        path: nested
     - name: Create Results
       run: |
-        cd lighthouse-results
-        ./src/index.js -u https://mytestdummy.github.io/ -r -b plastic -o mytestdummy
+        cd nested
+        ./src/index.js -u https://mytestdummy.github.io/ -r -b plastic -o exchange/lighthouse-results/mytestdummy
+        mv exchange/* .
         cd ..
     - name: Commit Results
       run: |
