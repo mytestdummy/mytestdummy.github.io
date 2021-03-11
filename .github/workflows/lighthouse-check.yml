@@ -13,8 +13,6 @@ jobs:
       with:
         repository: 'sitdisch/cloud'
         persist-credentials: false
-    - name: Clear Old Results
-      run: rm -R lighthouse-results/mytestdummy/*
     - uses: actions/checkout@master
       with:
         repository: 'mythemeway/lighthouse-badges'
@@ -24,8 +22,8 @@ jobs:
       run: |
         cd nested
         export LIGHTHOUSE_BADGES_PARAMS="--preset=desktop"
-        ./src/index.js -u https://mytestdummy.github.io/ -r -b plastic -o exchange/lighthouse-results/mytestdummy
-        mv exchange/** ..
+        ./src/index.js -u https://mytestdummy.github.io/ -r -b plastic -o mytestdummy
+        cp -r mytestdummy ../lighthouse-results/
         cd ..
     - name: Commit Results
       run: |
