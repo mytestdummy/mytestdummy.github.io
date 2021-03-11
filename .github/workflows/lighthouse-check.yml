@@ -22,7 +22,7 @@ jobs:
       run: |
         cd nested
         ./src/index.js -u https://mytestdummy.github.io/ -r -b plastic -o exchange/lighthouse-results/mytestdummy
-        mv exchange/** .
+        mv exchange/** ..
         cd ..
     - name: Commit Results
       run: |
