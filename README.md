@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/github/repo-size/mythemeway/Dark-Particle?label=RepoSize" />
 <img src="https://img.shields.io/github/repo-size/mythemeway/mythemeway.github.io?label=BuildSize" />
 
-<img src="https://raw.githubusercontent.com/GoogleChrome/lighthouse/master/assets/lighthouse-logo.svg" width="25"/><b> Lighthouse Results</b>
+### <img src="https://raw.githubusercontent.com/GoogleChrome/lighthouse/master/assets/lighthouse-logo.svg" width="25"/> Lighthouse Results 
 
 <b>Desktop</b><br>
 <img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/desktop/lighthouse_performance.svg" />
