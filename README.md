@@ -8,13 +8,25 @@
 <img src="https://img.shields.io/github/repo-size/mythemeway/Dark-Particle?label=RepoSize" />
 <img src="https://img.shields.io/github/repo-size/mythemeway/mythemeway.github.io?label=BuildSize" />
 
-<a title="Check it out" target="_blank" href="https://github.com/sitdisch/cloud/tree/master/lighthouse-results/mytestdummy"><img src="https://raw.githubusercontent.com/GoogleChrome/lighthouse/master/assets/lighthouse-logo.svg" width="25"/> <b>Lighthouse Results<b></a>
+<img src="https://raw.githubusercontent.com/GoogleChrome/lighthouse/master/assets/lighthouse-logo.svg" width="25"/><b><big><big><big> Lighthouse Results</big></big></big></b>
 
-<a title="Check it out" target="_blank" href="https://github.com/sitdisch/cloud/tree/master/lighthouse-results/mytestdummy"><img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/lighthouse_performance.svg" /></a>
-<a title="Check it out" target="_blank" href="https://github.com/sitdisch/cloud/tree/master/lighthouse-results/mytestdummy"><img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/lighthouse_accessibility.svg" /></a>
-<a title="Check it out" target="_blank" href="https://github.com/sitdisch/cloud/tree/master/lighthouse-results/mytestdummy"><img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/lighthouse_best-practices.svg" /></a>
-<a title="Check it out" target="_blank" href="https://github.com/sitdisch/cloud/tree/master/lighthouse-results/mytestdummy"><img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/lighthouse_seo.svg" /></a>
-<a title="Check it out" target="_blank" href="https://github.com/sitdisch/cloud/tree/master/lighthouse-results/mytestdummy"><img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/lighthouse_pwa.svg" /></a>
+<h4>Desktop</h4>
+<img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/desktop/lighthouse_performance.svg" />
+<img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/desktop/lighthouse_accessibility.svg" />
+<img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/desktop/lighthouse_best-practices.svg" />
+<img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/desktop/lighthouse_seo.svg" />
+<img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/desktop/lighthouse_pwa.svg" />
+
+<b>Full Reports:</b> <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/desktop/mytestdummy_github_io_.html" title="Check it out" target="_blank">Main Page </a> | <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/desktop/mytestdummy_github_io_projects_2020_10_31_project_1_html.html" title="Check it out" target="_blank">Project Page</a>
+
+<h4>Mobile</h4>
+<img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/mobile/lighthouse_performance.svg" />
+<img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/mobile/lighthouse_accessibility.svg" />
+<img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/mobile/lighthouse_best-practices.svg" />
+<img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/mobile/lighthouse_seo.svg" />
+<img src="https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/mobile/lighthouse_pwa.svg" />
+
+<b>Full Reports:</b> <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/mobile/mytestdummy_github_io_.html" title="Check it out" target="_blank">Main Page </a> | <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/sitdisch/cloud/master/lighthouse-results/mytestdummy/mobile/mytestdummy_github_io_projects_2020_10_31_project_1_html.html" title="Check it out" target="_blank">Project Page</a>
 
 ## Preview - [Demo](https://mythemeway.github.io/Dark-Particle/ "Go there")
 

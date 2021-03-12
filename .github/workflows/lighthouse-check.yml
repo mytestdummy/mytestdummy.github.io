@@ -21,8 +21,9 @@ jobs:
     - name: Create Results
       run: |
         cd nested
+        ./src/index.js -u https://mytestdummy.github.io/ https://mytestdummy.github.io/projects/2020/10/31/project-1.html -r -b plastic -o mytestdummy/mobile
         export LIGHTHOUSE_BADGES_PARAMS="--preset=desktop"
-        ./src/index.js -u https://mytestdummy.github.io/ -r -b plastic -o mytestdummy
+        ./src/index.js -u https://mytestdummy.github.io/ https://mytestdummy.github.io/projects/2020/10/31/project-1.html -r -b plastic -o mytestdummy/desktop
         cp -r mytestdummy ../lighthouse-results/
         cd ..
     - name: Commit Results
