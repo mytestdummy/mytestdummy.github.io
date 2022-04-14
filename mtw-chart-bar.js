@@ -13,7 +13,7 @@
  * Source: https://github.com/chartjs/Chart.js/blob/master/docs/samples/bar/border-radius.md
  * License: MIT
  * Copyright: © 2014-2022 Chart.js Contributors
- * Changes: made
+ * Changes: made km
  */
 
 "use strict";
